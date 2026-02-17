@@ -5,37 +5,169 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>プライバシーポリシー — MEMENTO</title>
   <style>
-    :root { --bg: #F4F3EE; --surface: #FFFFFF; --text: #2C2C2C; --text-secondary: #5C5C5C; --text-tertiary: #8C8C8C; --accent: #C47B5B; --radius: 12px; --shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    :root {
+      --bg: #F4F3EE;
+      --surface: #FFFFFF;
+      --text: #2C2C2C;
+      --text-secondary: #5C5C5C;
+      --text-tertiary: #8C8C8C;
+      --accent: #C47B5B;
+      --radius: 12px;
+      --shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
     * { box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; margin: 0; padding: 24px 16px 48px; max-width: 640px; margin-left: auto; margin-right: auto; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      margin: 0;
+      padding: 24px 16px 48px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     h1 { font-size: 24px; font-weight: 600; text-align: center; margin: 0 0 8px; }
     .last-updated { font-size: 12px; color: var(--text-tertiary); text-align: center; margin-bottom: 32px; }
-    .section { background: var(--surface); border-radius: var(--radius); padding: 20px; margin-bottom: 12px; box-shadow: var(--shadow); }
+    .section {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
+    }
     .section h2 { font-size: 15px; font-weight: 600; margin: 0 0 10px; color: var(--text); }
     .section p { font-size: 13px; color: var(--text-secondary); margin: 0 0 8px; }
     .section ul { margin: 8px 0; padding-left: 20px; }
     .section li { font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; }
-    .contact-box { background: #FDF8F6; border-radius: var(--radius); padding: 16px; margin-top: 12px; }
+    .contact-box {
+      background: #FDF8F6;
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-top: 12px;
+    }
     .contact-box strong { display: block; font-size: 14px; margin-bottom: 8px; }
     .contact-box a { color: var(--accent); text-decoration: underline; }
     .contact-box .hours, .contact-box .note { font-size: 12px; color: var(--text-tertiary); margin-top: 6px; }
     .back-link { display: inline-block; font-size: 13px; color: var(--accent); margin-bottom: 24px; text-decoration: none; }
     .back-link:hover { text-decoration: underline; }
+    .todo { color: var(--accent); font-weight: 600; }
   </style>
 </head>
 <body>
-  <a href="index.html" class="back-link">← MEMENTO に戻る</a>
+  <a href="index.html" class="back-link">&larr; MEMENTO に戻る</a>
+
   <h1>プライバシーポリシー</h1>
-  <p class="last-updated">最終更新日: 2026年2月14日</p>
-  <section class="section"><h2>はじめに</h2><p>MEMENTO（以下「本アプリ」）は、ユーザーのプライバシーを最大限に尊重します。本プライバシーポリシーでは、本アプリがどのように情報を取り扱うかについて説明します。</p></section>
-  <section class="section"><h2>1. 収集する情報</h2><p>本アプリでは、以下の情報をお使いの端末内にのみ保存します。</p><ul><li>国（平均余命の計算に使用）</li><li>性別（平均余命の計算に使用）</li><li>生年月（平均余命の計算に使用）</li><li>音声入力から変換されたテキスト（独り言）</li><li>AIが抽出した願望リスト</li><li>ユーザーが設定したアイコン画像</li><li>AI利用回数（日次カウンター）</li></ul><p>これらの情報はすべてお使いの端末のローカルストレージに保存され、本アプリの開発者がアクセスすることはありません。</p></section>
-  <section class="section"><h2>2. 外部サービスとの通信</h2><p>本アプリは、AI機能を利用する場合に限り、以下の外部サービスとの通信を行います。</p><ul><li>Google Gemini API（願望抽出・インサイト生成）</li></ul><p>AI機能の利用時、ユーザーが入力した独り言のテキストがGoogle Gemini APIに送信されます。この通信は暗号化された接続（HTTPS）で行われます。APIキーは運営者が管理しており、ユーザーが設定する必要はありません。</p><p>送信されるデータの取り扱いは、Googleのプライバシーポリシーに準じます。本アプリの開発者は、これらの通信内容にアクセスすることはできません。</p></section>
-  <section class="section"><h2>3. 開発者によるデータ収集</h2><p>本アプリは、独自のサーバーを持ちません。ユーザーの個人情報、利用データ、分析データなどを開発者が収集・保存することは一切ありません。</p></section>
-  <section class="section"><h2>4. AI機能について</h2><p>本アプリのAI機能（願望抽出・インサイト生成）は、運営者が管理するGoogle Gemini APIを利用しています。ユーザーがAPIキーを設定・管理する必要はありません。</p><p>AI機能にはFreeプラン（1日3回）とPremiumプラン（1日50回）の利用回数制限があります。利用回数は端末内に保存され、毎日0時（日本時間）にリセットされます。</p></section>
-  <section class="section"><h2>5. データの保存と削除</h2><p>すべてのデータは端末内に保存されています。設定画面の「すべてのデータを削除」から、いつでも完全にデータを削除できます。</p><p>アプリをアンインストールすると、端末に保存されたすべてのデータが自動的に削除されます。</p></section>
-  <section class="section"><h2>6. 平均余命データについて</h2><p>本アプリで使用している平均余命データは、世界保健機関（WHO）が公開する Global Health Observatory のデータに基づいています。表示される数字は統計上の平均値であり、個人の寿命を予測・保証するものではありません。</p></section>
-  <section class="section"><h2>7. 子どものプライバシー</h2><p>本アプリは13歳未満の子どもを対象としていません。13歳未満の方は保護者の同意のもとでご利用ください。</p></section>
-  <section class="section"><h2>8. ポリシーの変更</h2><p>本プライバシーポリシーは、必要に応じて更新されることがあります。重要な変更がある場合は、アプリ内で通知します。</p></section>
-  <section class="section"><h2>9. お問い合わせ</h2><p>本プライバシーポリシーに関するご質問やご意見がございましたら、下記までお問い合わせください。</p><div class="contact-box"><strong>MEMENTO サポート窓口</strong><a href="mailto:MEMENTO.support@mkt-assist.com">MEMENTO.support@mkt-assist.com</a><p class="hours">受付時間：平日 10:00–18:00（土日祝除く）</p><p class="note">※ 順次ご返信いたします。</p></div></section>
+  <p class="last-updated">最終更新日: 2026年2月16日</p>
+
+  <!-- はじめに + 修正6: 運営者情報追加 -->
+  <section class="section">
+    <h2>はじめに</h2>
+    <p>MEMENTO（以下「本アプリ」）は、ユーザーのプライバシーを最大限に尊重します。本プライバシーポリシーでは、本アプリがどのように情報を取り扱うかについて説明します。</p>
+    <!-- TODO: 実際の情報を入力 -->
+    <p>本アプリは <span class="todo">[個人名 or 屋号 or 法人名]</span>（以下「運営者」）が提供しています。<br>
+    所在地：<span class="todo">[住所]</span><br>
+    連絡先：<a href="mailto:MEMENTO.support@mkt-assist.com">MEMENTO.support@mkt-assist.com</a></p>
+  </section>
+
+  <!-- 1. 収集する情報 + 修正7: Apple Privacy Labels対応・データ保持期間追記 -->
+  <section class="section">
+    <h2>1. 収集する情報</h2>
+    <p>本アプリでは、以下の情報をお使いの端末内にのみ保存します。</p>
+    <ul>
+      <li>国（平均余命の計算に使用）</li>
+      <li>性別（平均余命の計算に使用）</li>
+      <li>生年月（平均余命の計算に使用）</li>
+      <li>音声入力から変換されたテキスト（独り言）</li>
+      <li>AIが抽出した願望リスト</li>
+      <li>ユーザーが設定したアイコン画像</li>
+      <li>AI利用回数（日次カウンター）</li>
+    </ul>
+    <p>これらの情報はすべてお使いの端末のローカルストレージに保存され、本アプリの開発者がアクセスすることはありません。</p>
+    <p>これらのデータは、ユーザーが自ら削除するまで端末内に保持されます。運営者がこれらのデータにアクセスすることは技術的に不可能です。</p>
+    <p><strong>Apple App Store プライバシーラベルとの対応：</strong></p>
+    <ul>
+      <li>「Data Not Collected」：本アプリは、ユーザーのデータを収集しません。</li>
+      <li>「Data Not Linked to You」：端末内に保存されるデータ（国、性別、生年月等）は運営者のサーバーに送信されず、ユーザーの個人を特定する情報と紐付けられることはありません。</li>
+      <li>「Data Used to Track You」：本アプリは、広告トラッキングやユーザー追跡を一切行いません。</li>
+    </ul>
+  </section>
+
+  <!-- 2. 外部サービスとの通信 + 修正8: Google API詳細・音声データ処理追記 -->
+  <section class="section">
+    <h2>2. 外部サービスとの通信</h2>
+    <p>本アプリは、AI機能を利用する場合に限り、以下の外部サービスとの通信を行います。</p>
+    <ul>
+      <li>Google Gemini API（願望抽出・インサイト生成）</li>
+    </ul>
+    <p>AI機能の利用時、ユーザーが入力した独り言のテキストがGoogle Gemini APIに送信されます。この通信は暗号化された接続（HTTPS）で行われます。APIキーは運営者が管理しており、ユーザーが設定する必要はありません。</p>
+    <p>Google Gemini APIへのデータ送信は、ユーザーがAI機能を利用する操作を行った時に限り発生します。送信されるのは、ユーザーが入力した独り言のテキストデータのみです。</p>
+    <p>Google Cloud API利用規約に基づき、API経由で送信されたデータは、Googleのモデル学習に使用されません（Google Cloud Data Processing Addendum適用）。Googleのプライバシーポリシーの詳細は <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> をご確認ください。</p>
+    <p>音声入力を使用する場合、音声からテキストへの変換はApple標準の音声認識フレームワーク（Speech Framework）を使用し、端末内で処理されます。音声データそのものが外部サーバーに送信されることはありません。</p>
+  </section>
+
+  <!-- 3. 開発者によるデータ収集 -->
+  <section class="section">
+    <h2>3. 開発者によるデータ収集</h2>
+    <p>本アプリは、独自のサーバーを持ちません。ユーザーの個人情報、利用データ、分析データなどを開発者が収集・保存することは一切ありません。</p>
+  </section>
+
+  <!-- 4. AI機能について + 修正9: 同意フロー追記 -->
+  <section class="section">
+    <h2>4. AI機能について</h2>
+    <p>本アプリのAI機能（願望抽出・インサイト生成）は、運営者が管理するGoogle Gemini APIを利用しています。ユーザーがAPIキーを設定・管理する必要はありません。</p>
+    <p>AI機能にはFreeプラン（1日3回）とPremiumプラン（1日50回）の利用回数制限があります。利用回数は端末内に保存され、毎日0時（日本時間）にリセットされます。</p>
+    <p>AI機能を初めて利用する際、データの送信先（Google Gemini API）と送信されるデータの内容について、アプリ内で同意確認ダイアログを表示します。ユーザーはこの同意をいつでも設定画面から撤回でき、その場合AI機能は無効になりますが、記録機能は引き続きご利用いただけます。</p>
+  </section>
+
+  <!-- 5. データの保存と削除 -->
+  <section class="section">
+    <h2>5. データの保存と削除</h2>
+    <p>すべてのデータは端末内に保存されています。設定画面の「すべてのデータを削除」から、いつでも完全にデータを削除できます。</p>
+    <p>アプリをアンインストールすると、端末に保存されたすべてのデータが自動的に削除されます。</p>
+  </section>
+
+  <!-- 6. ユーザーの権利（修正11: 新規追加） -->
+  <section class="section">
+    <h2>6. ユーザーの権利</h2>
+    <p>ユーザーは以下の権利を有します：</p>
+    <ul>
+      <li><strong>データへのアクセス：</strong>端末内に保存されたすべてのデータは、アプリの各画面から確認できます</li>
+      <li><strong>データの削除：</strong>設定画面の「すべてのデータを削除」からいつでも完全にデータを削除できます</li>
+      <li><strong>AI機能の同意撤回：</strong>設定画面からAI機能の同意をいつでも撤回できます</li>
+      <li><strong>お問い合わせ：</strong>データの取り扱いに関するご質問やご要望は、下記の連絡先にお問い合わせください</li>
+    </ul>
+  </section>
+
+  <!-- 7. 平均余命データについて（旧6） -->
+  <section class="section">
+    <h2>7. 平均余命データについて</h2>
+    <p>本アプリで使用している平均余命データは、世界保健機関（WHO）が公開する Global Health Observatory のデータに基づいています。表示される数字は統計上の平均値であり、個人の寿命を予測・保証するものではありません。</p>
+  </section>
+
+  <!-- 8. 子どものプライバシー（旧7 → 修正10: 全面改訂） -->
+  <section class="section">
+    <h2>8. 子どものプライバシー</h2>
+    <p>本アプリは13歳以上の方を対象としています。13歳未満のお子様による利用は想定しておらず、13歳未満の方からの個人情報を意図的に収集することはありません。</p>
+    <p>13歳未満のお子様が本アプリを利用していることが判明した場合、該当するデータの削除について対応いたします。保護者の方でお子様の利用に関する懸念がある場合は、下記の連絡先までお問い合わせください。</p>
+  </section>
+
+  <!-- 9. ポリシーの変更（旧8） -->
+  <section class="section">
+    <h2>9. ポリシーの変更</h2>
+    <p>本プライバシーポリシーは、必要に応じて更新されることがあります。重要な変更がある場合は、アプリ内で通知します。</p>
+  </section>
+
+  <!-- 10. お問い合わせ（旧9） -->
+  <section class="section">
+    <h2>10. お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問やご意見がございましたら、下記までお問い合わせください。</p>
+    <div class="contact-box">
+      <strong>MEMENTO サポート窓口</strong>
+      <a href="mailto:MEMENTO.support@mkt-assist.com">MEMENTO.support@mkt-assist.com</a>
+      <p class="hours">受付時間：平日 10:00–18:00（土日祝除く）</p>
+      <p class="note">※ 順次ご返信いたします。</p>
+    </div>
+  </section>
 </body>
 </html>
