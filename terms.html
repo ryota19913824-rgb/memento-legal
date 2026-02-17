@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>利用規約 — MEMENTO</title>
+  <style>
+    :root {
+      --bg: #F4F3EE;
+      --surface: #FFFFFF;
+      --text: #2C2C2C;
+      --text-secondary: #5C5C5C;
+      --text-tertiary: #8C8C8C;
+      --accent: #C47B5B;
+      --radius: 12px;
+      --shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      margin: 0;
+      padding: 24px 16px 48px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+      margin: 0 0 8px;
+    }
+    .last-updated {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .section {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
+    }
+    .section h2 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 0 10px;
+      color: var(--text);
+    }
+    .section p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin: 0 0 8px;
+    }
+    .section ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }
+    .section li {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+    .contact-box {
+      background: #FDF8F6;
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-top: 12px;
+    }
+    .contact-box strong {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .contact-box a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    .contact-box .hours, .contact-box .note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-top: 6px;
+    }
+    .back-link {
+      display: inline-block;
+      font-size: 13px;
+      color: var(--accent);
+      margin-bottom: 24px;
+      text-decoration: none;
+    }
+    .back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-link">← MEMENTO に戻る</a>
+
+  <h1>利用規約</h1>
+  <p class="last-updated">最終更新日: 2026年2月14日</p>
+
+  <section class="section">
+    <h2>第1条（適用）</h2>
+    <p>本利用規約（以下「本規約」）は、MEMENTO（以下「本アプリ」）の利用に関する条件を定めるものです。ユーザーは、本アプリをダウンロードまたは使用することにより、本規約に同意したものとみなされます。</p>
+  </section>
+
+  <section class="section">
+    <h2>第2条（定義）</h2>
+    <p>本規約において、以下の用語は次の意味で使用します。</p>
+    <ul>
+      <li>「本アプリ」とは、MEMENTO アプリケーションを指します</li>
+      <li>「ユーザー」とは、本アプリを利用するすべての方を指します</li>
+      <li>「コンテンツ」とは、ユーザーが本アプリに入力したテキスト、音声データ等を指します</li>
+      <li>「運営者」とは、本アプリの提供者を指します</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>第3条（本アプリの内容）</h2>
+    <p>本アプリは、世界保健機関（WHO）の統計データに基づく平均余命の表示、音声およびテキストによる独り言の記録、AIを活用した願望の抽出・管理機能を提供します。</p>
+    <p>表示される平均余命は統計上の平均値であり、個人の寿命を予測・保証するものではありません。医学的な助言として使用することはできません。</p>
+  </section>
+
+  <section class="section">
+    <h2>第4条（アカウントおよびAI機能）</h2>
+    <p>本アプリはアカウント登録を必要としません。AI機能（願望抽出・インサイト生成）は、運営者が管理するGoogle Gemini APIを通じて提供されます。ユーザーがAPIキーを取得・設定する必要はありません。</p>
+    <p>AI機能にはFreeプラン（1日3回）とPremiumプラン（1日50回・月額¥500）の利用回数制限があります。プランの詳細は設定画面よりご確認ください。</p>
+  </section>
+
+  <section class="section">
+    <h2>第5条（データの取り扱い）</h2>
+    <p>ユーザーが入力したコンテンツ（独り言、願望等）は、すべてユーザーの端末内にのみ保存されます。運営者がユーザーのデータを収集・保存することはありません。</p>
+    <p>AI機能の利用時に限り、入力テキストがGoogle Gemini APIに送信されます。送信されたデータの取り扱いは、Googleの利用規約およびプライバシーポリシーに従います。</p>
+  </section>
+
+  <section class="section">
+    <h2>第6条（禁止事項）</h2>
+    <p>ユーザーは、以下の行為を行ってはなりません。</p>
+    <ul>
+      <li>本アプリの逆コンパイル、リバースエンジニアリング、または改変</li>
+      <li>本アプリを利用した違法行為または公序良俗に反する行為</li>
+      <li>本アプリの運営を妨害する行為</li>
+      <li>他のユーザーまたは第三者に損害を与える行為</li>
+      <li>本アプリを商業目的で無断利用する行為</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>第7条（サブスクリプション）</h2>
+    <p>本アプリは無料機能のほか、有料のプレミアムプランを提供する場合があります。サブスクリプションの購入はApp StoreまたはGoogle Playを通じて行われ、各ストアの規約が適用されます。</p>
+    <p>サブスクリプションの解約は、各ストアの「サブスクリプション管理」より行ってください。アプリ内から解約操作を行うことはできません。</p>
+    <ul>
+      <li>iPhone：設定 > Apple ID > サブスクリプション</li>
+      <li>Android：Google Play > お支払いと定期購入 > 定期購入</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>第8条（免責事項）</h2>
+    <p>運営者は、本アプリの内容の正確性、完全性、有用性等について、いかなる保証も行いません。</p>
+    <p>本アプリの利用により生じた損害（データの消失、精神的損害等を含む）について、運営者は一切の責任を負いません。</p>
+    <p>表示される平均余命の数値は統計データに基づく参考値であり、これに関連して生じたいかなる損害についても運営者は責任を負いません。</p>
+  </section>
+
+  <section class="section">
+    <h2>第9条（サービスの変更・終了）</h2>
+    <p>運営者は、事前の通知なく、本アプリの内容の変更、または提供の中止・終了を行うことができるものとします。これによりユーザーに生じた損害について、運営者は一切の責任を負いません。</p>
+  </section>
+
+  <section class="section">
+    <h2>第10条（知的財産権）</h2>
+    <p>本アプリに関する著作権、商標権その他の知的財産権は、運営者または正当な権利者に帰属します。ユーザーが本アプリに入力したコンテンツの権利はユーザーに帰属します。</p>
+  </section>
+
+  <section class="section">
+    <h2>第11条（規約の変更）</h2>
+    <p>運営者は、必要に応じて本規約を変更できるものとします。変更後の利用規約は、アプリ内での通知またはアプリの更新をもって効力を生じるものとします。変更後も本アプリを継続して利用した場合、ユーザーは変更後の規約に同意したものとみなされます。</p>
+  </section>
+
+  <section class="section">
+    <h2>第12条（準拠法・管轄）</h2>
+    <p>本規約の解釈および適用は日本法に準拠するものとし、本規約に関する紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+  </section>
+
+  <section class="section">
+    <h2>お問い合わせ</h2>
+    <p>本規約に関するご質問は、下記までお問い合わせください。</p>
+    <div class="contact-box">
+      <strong>MEMENTO サポート窓口</strong>
+      <a href="mailto:MEMENTO.support@mkt-assist.com">MEMENTO.support@mkt-assist.com</a>
+      <p class="hours">受付時間：平日 10:00–18:00（土日祝除く）</p>
+      <p class="note">※ 順次ご返信いたします。</p>
+    </div>
+  </section>
+</body>
+</html>
