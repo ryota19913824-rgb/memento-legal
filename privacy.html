@@ -82,10 +82,10 @@
       <li>AI利用回数（日次カウンター）</li>
     </ul>
     <p>これらの情報はすべてお使いの端末のローカルストレージに保存され、本アプリの開発者がアクセスすることはありません。</p>
-    <p>これらのデータは、ユーザーが自ら削除するまで端末内に保持されます。運営者がこれらのデータにアクセスすることは技術的に不可能です。</p>
+    <p>これらのデータは、ユーザーが自ら削除するまで端末内に保持されます。運営者は、端末内に保存されたデータへアクセスする仕組みを有していません。</p>
     <p><strong>Apple App Store プライバシーラベルとの対応：</strong></p>
     <ul>
-      <li>「Data Not Collected」：本アプリは、ユーザーのデータを収集しません。</li>
+      <li>運営者によるデータ保存：本アプリは、運営者のサーバー上にユーザーデータを保存しません。ただし、AI機能利用時に限り、ユーザーが入力したテキストデータをGoogle Gemini APIへ送信します。</li>
       <li>「Data Not Linked to You」：端末内に保存されるデータ（国、性別、生年月等）は運営者のサーバーに送信されず、ユーザーの個人を特定する情報と紐付けられることはありません。</li>
       <li>「Data Used to Track You」：本アプリは、広告トラッキングやユーザー追跡を一切行いません。</li>
     </ul>
@@ -100,7 +100,7 @@
     </ul>
     <p>AI機能の利用時、ユーザーが入力した独り言のテキストがGoogle Gemini APIに送信されます。この通信は暗号化された接続（HTTPS）で行われます。APIキーは運営者が管理しており、ユーザーが設定する必要はありません。</p>
     <p>Google Gemini APIへのデータ送信は、ユーザーがAI機能を利用する操作を行った時に限り発生します。送信されるのは、ユーザーが入力した独り言のテキストデータのみです。</p>
-    <p>Google Cloud API利用規約に基づき、API経由で送信されたデータは、Googleのモデル学習に使用されません（Google Cloud Data Processing Addendum適用）。Googleのプライバシーポリシーの詳細は <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> をご確認ください。</p>
+    <p>Google Cloud API利用規約に基づき、API経由で送信されたデータは、Googleのモデル学習に使用されません（Google Cloud Data Processing Addendum適用）。Google側のデータ保持については、Googleのプライバシーポリシーに従います。詳細は <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> をご確認ください。</p>
     <p>音声入力を使用する場合、音声からテキストへの変換はApple標準の音声認識フレームワーク（Speech Framework）を使用し、端末内で処理されます。音声データそのものが外部サーバーに送信されることはありません。</p>
   </section>
 
@@ -140,7 +140,7 @@
   <!-- 7. 平均余命データについて（旧6） -->
   <section class="section">
     <h2>7. 平均余命データについて</h2>
-    <p>本アプリで使用している平均余命データは、世界保健機関（WHO）が公開する Global Health Observatory のデータに基づいています。表示される数字は統計上の平均値であり、個人の寿命を予測・保証するものではありません。</p>
+    <p>本アプリで使用している平均余命データは、公開統計データに基づいています。表示される数字は統計上の平均値であり、個人の寿命を予測・保証するものではありません。</p>
   </section>
 
   <!-- 8. 子どものプライバシー（旧7 → 修正10: 全面改訂） -->
